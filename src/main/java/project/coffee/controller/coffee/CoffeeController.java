@@ -3,10 +3,7 @@ package project.coffee.controller.coffee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import project.coffee.domain.dto.coffee.CoffeeListDTO;
 import project.coffee.domain.dto.coffee.OrderDetailDTO;
 import project.coffee.domain.entity.CoffeeList;
@@ -21,6 +18,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.stream.IntStream;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @Controller
 public class CoffeeController {
 
