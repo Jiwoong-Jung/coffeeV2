@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import project.coffee.domain.dto.CoffeeImageDTO;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

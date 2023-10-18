@@ -1,4 +1,4 @@
-package project.coffee.domain.dto;
+package project.coffee.domain.dto.upload;
 
 
 import lombok.AllArgsConstructor;
